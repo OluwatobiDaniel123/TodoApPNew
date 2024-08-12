@@ -1,0 +1,38 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-box {
+  display: flex;
+  background: rgb(229, 240, 241);
+}
+.h2-logo {
+  margin: 0;
+  color: rgb(7, 196, 206);
+  font-size: 55px;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.register-btn {
+  background-color: rgb(164, 240, 244);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 3px;
+  transition: 0.5s ease-in-out;
+}
+
+.register-btn:hover {
+  background-color: rgb(9, 187, 190);
+}

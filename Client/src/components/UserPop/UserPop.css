@@ -1,0 +1,42 @@
+.cycle {
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 5px;
+  background-color: aqua;
+  border-radius: 7px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.h5pop {
+  display: flex;
+  flex-direction: row;
+}
+
+.h5pop h5 {
+  margin: 5px;
+  padding: 9px;
+  padding-left: 0;
+  letter-spacing: 1px;
+}
+
+.logout-btn {
+  width: 80px;
+  padding: 8px;
+  background-color: rgb(235, 36, 36);
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+  color: rgb(255, 255, 255);
+  height: 34px;
+  border-radius: 9px;
+  transition: 0.5s ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: rgb(202, 26, 26);
+}
